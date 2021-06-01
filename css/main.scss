@@ -1,0 +1,87 @@
+body {
+  background: #f3ac3c;
+  display: flex;
+  justify-content: center;
+}
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  margin-left: 190px;
+  width: 400px;
+}
+.circ1 {
+  width: 120px;
+  height: 120px;
+  background: #998235;
+  border-radius: 50%;
+  position: relative;
+  left: 10px;
+}
+.bridge {
+  height: 40px;
+  width: 10px;
+  background: #1a4341;
+  border-radius: 20px;
+  align-self: center;
+  position: relative;
+  top: 40px;
+  left: 40px;
+}
+.circ2 {
+  width: 100px;
+  height: 100px;
+  background: #998235;
+  border-radius: 50%;
+  position: relative;
+  left: -40px;
+}
+.circ-in {
+  background: #1a4341;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  border: 5px solid #f3ac3c;
+}
+.neck {
+  width: 110px;
+  height: 20px;
+  background: #1a4341;
+  position: relative;
+  left: -48px;
+  z-index: -1;
+}
+.head {
+  background: #998235;
+  width: 40px;
+  height: 30px;
+  position: relative;
+  right: 50px;
+  border-radius: 10px;
+}
+.bars {
+  position: relative;
+  top: 8px;
+  left: 10px;
+}
+.bar1 {
+  background: #1a4341;
+  height: 4px;
+  width: 20px;
+  border-radius: 5px;
+}
+.bar2 {
+  background: #1a4341;
+  height: 4px;
+  width: 20px;
+  border-radius: 5px;
+  margin-top: 6px;
+}
+
+.wrap {
+  transform: scale(2);
+}
